@@ -4,6 +4,8 @@ const Header = require('./header');
 const Footer = require('./footer');
 
 function banner(state) {
+  return null;
+
   if (state.layout) {
     return; // server side
   }

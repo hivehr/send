@@ -27,37 +27,6 @@ class Footer extends Component {
         >
           Mozilla
         </a>
-        <ul
-          class="list-reset flex flex-col md:flex-row items-start md:items-center md:justify-end"
-        >
-          <li class="m-2">
-            <a href="https://www.mozilla.org/about/legal/terms/services/#send">
-              ${translate('footerLinkLegal')}
-            </a>
-          </li>
-          <li class="m-2">
-            <a href="/legal"> ${translate('footerLinkPrivacy')} </a>
-          </li>
-          <li class="m-2">
-            <a href="https://www.mozilla.org/privacy/websites/#cookies">
-              ${translate('footerLinkCookies')}
-            </a>
-          </li>
-          <li class="m-2">
-            <a href="https://github.com/mozilla/send">GitHub </a>
-          </li>
-          <li class="m-2">
-            <a
-              href="${feedbackUrl}"
-              rel="noreferrer noopener"
-              class="feedback-link"
-              alt="Feedback"
-              target="_blank"
-            >
-              ${translate('siteFeedback')}
-            </a>
-          </li>
-        </ul>
       </footer>
     `;
   }

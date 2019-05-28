@@ -466,7 +466,6 @@ module.exports.empty = function(state, emit) {
       >
         ${state.translate('addFilesButton')}
       </label>
-      ${upsell}
     </send-upload-area>
   `;
 

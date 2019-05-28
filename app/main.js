@@ -63,8 +63,6 @@ if (process.env.NODE_ENV === 'production') {
 
   const app = routes(choo());
   window.app = app;
-  app.use(experiments);
-  app.use(metrics);
   app.use(controller);
   app.use(dragManager);
   app.use(pasteManager);
