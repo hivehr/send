@@ -27,6 +27,18 @@ class Footer extends Component {
         >
           Mozilla
         </a>
+        <ul
+          class="list-reset flex flex-col md:flex-row items-start md:items-center md:justify-end"
+        >
+        <li class="m-2">
+          <a href="https://send.firefox.com">
+            ${translate('title')}
+          </a>
+        </li>
+          <li class="m-2">
+            <a href="https://github.com/hivehr/send">GitHub </a>
+          </li>
+        </ul>
       </footer>
     `;
   }
